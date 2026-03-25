@@ -1,7 +1,13 @@
-def somar_dois_numeros():
-    num1 = float(input("Digite o primeiro número: "))
-    num2 = float(input("Digite o segundo número: "))
-    soma = num1 + num2
-    print(f"A soma é: {soma}")
+# Programa que soma dois números
 
-somar_dois_numeros()
+# Pede para o usuário digitar o primeiro número
+num1 = int(input("Digite o primeiro número: "))
+
+# Pede para o usuário digitar o segundo número
+num2 = int(input("Digite o segundo número: "))
+
+# Soma os dois números
+soma = num1 + num2
+
+# Mostra o resultado na tela
+print("A soma dos dois números é:", soma)
