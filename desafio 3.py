@@ -1,3 +1,5 @@
+#Lista de 5 nomes e imprimir todos
+
 # Cria uma lista chamada 'nomes' contendo 5 nomes iniciais
 nomes = ["Sofia", "Maria", "Leonardo", "Arthur", "Cecilia"]
 
