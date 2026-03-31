@@ -1,11 +1,17 @@
-# Solicita o valor da base do triângulo e converte para número decimal
-base = float(input("Digite o valor da base do triângulo: "))
+#Calcular a área de um triângulo a partir de sua base e altura.
 
-# Solicita o valor da altura do triângulo e converte para número decimal
-altura = float(input("Digite o valor da altura do triângulo: "))
+# Pede o valor da base do triângulo
+base = float(input("Qual é a base do triângulo? "))
 
-# Calcula a área multiplicando base por altura e dividindo o resultado por 2
-area = (base * altura) / 2
+# Pede o valor da altura do triângulo
+altura = float(input("Qual é a altura do triângulo? "))
 
-# Exibe o resultado final do cálculo da área no console
-print("A área do triângulo é:", area)
+# Se a base ou a altura forem zero ou negativos, dá erro
+if base <= 0 or altura <= 0:
+    print("A base e a altura precisam ser maiores que zero!")
+else:
+    # Calcula a área do triângulo
+    area = (base * altura) / 2
+
+    # Mostra o resultado
+    print("A área do triângulo é:", area)
