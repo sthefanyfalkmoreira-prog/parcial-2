@@ -1,3 +1,5 @@
+#Calculadora simples
+
 # Pede para o usuário digitar o primeiro número
 n1 = float(input("Digite o primeiro número: "))
 
