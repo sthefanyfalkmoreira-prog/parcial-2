@@ -1,17 +1,26 @@
-# Solicita o primeiro número ao usuário e converte para decimal
+# Pede para o usuário digitar o primeiro número
 n1 = float(input("Digite o primeiro número: "))
 
-# Solicita o segundo número ao usuário e converte para decimal
+# Pede para o usuário digitar o segundo número
 n2 = float(input("Digite o segundo número: "))
 
-# Calcula a soma, subtração, multiplicação e divisão dos valores
+# Soma os dois números
 soma = n1 + n2
-subtracao = n1 - n2
-multiplicacao = n1 * n2
-divisao = n1 / n2
 
-# Exibe os resultados de cada operação matemática na tela
+# Subtrai o segundo número do primeiro
+subtracao = n1 - n2
+
+# Multiplica os dois números
+multiplicacao = n1 * n2
+
+# Verifica se o segundo número é zero para não dividir por zero
+if n2 != 0:
+    divisao = n1 / n2
+    print("Divisão:", divisao)
+else:
+    print("Não é possível dividir por zero!")
+
+# Mostra os resultados das operações
 print("Soma:", soma)
 print("Subtração:", subtracao)
 print("Multiplicação:", multiplicacao)
-print("Divisão:", divisao)
