@@ -7,8 +7,8 @@ horas = total_segundos // 3600
 # Calcula os minutos restantes usando o resto da divisão das horas por 60
 minutos = (total_segundos % 3600) // 60
 
-# Calcula os segundos que restaram após extrair as horas e os minutos
+# O que sobrar são os segundos
 segundos = total_segundos % 60
 
-# Exibe o resultado final formatado para o usuário no console
+# Resultado final 
 print(f"{horas} horas, {minutos} minutos e {segundos} segundos.")
