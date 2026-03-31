@@ -1,5 +1,4 @@
 # Cria uma lista com 5 nomes iniciais
-
 nomes = ["Sofia", "Maria", "Leonardo", "Arthur", "Cecilia"]
 
 # Pede para o usuário digitar um nome que será adicionado à lista
@@ -10,4 +9,4 @@ nomes.append(novo_nome)
 
 # Mostra todos os nomes da lista, um por um
 for nome in nomes:
-    print(nome)  # Exibe o nome atual da lista
+    print(nome)  # Exibe o nome que o usuário digitou da lista
