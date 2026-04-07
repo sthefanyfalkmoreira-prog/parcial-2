@@ -1,4 +1,6 @@
-# conversão de tempo
+# Conversão de tempo
+
+# Digitar a quantidade total de segundos 
 total_segundos = int(input("Digite a quantidade total de segundos: "))
 
 # Calcula a quantidade de horas inteiras na divisão por 3600
