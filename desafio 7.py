@@ -1,14 +1,15 @@
-# Solicita o valor do capital inicial e converte para número decimal
-capital = float(input("Digite o valor do capital (C): "))
+# Juros simples
+# Pede o valor do Capital e transforma em número inteiro 
+C = int(input("Digite o Capital (C): "))
 
-# Solicita a taxa de juros (em porcentagem) e converte para decimal
-taxa = float(input("Digite a taxa de juros (I): "))
+# Pede a taxa de juros e transforma em número inteiro 
+I = int(input("Digite a Taxa de juros (I): "))
 
-# Solicita o tempo da aplicação e converte para número decimal
-tempo = float(input("Digite o tempo (T): "))
+# Pede o tempo da aplicação e transforma em número inteiro 
+T = int(input("Digite o Tempo (T): "))
 
-# Aplica a fórmula matemática para calcular o valor dos juros (J)
-juros = (capital * taxa * tempo) / 100
+# Multiplica os três valores e divide por 100 para achar os juros
+J = (C * I * T) / 100
 
-# Exibe o valor final dos juros calculados para o usuário no console
-print("O valor dos juros simples (J) é:", juros)
+# Mostra o resultado final calculado na tela
+print(f"O valor dos juros simples (J) é: {J}")
