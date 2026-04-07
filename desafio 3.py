@@ -1,4 +1,4 @@
-# Cria uma lista com 5 nomes iniciais
+# Cria uma lista com 5 nomes 
 
 nomes = ["Sofia", "Maria", "Leonardo", "Arthur", "Cecilia"]
 
