@@ -1,4 +1,5 @@
 # Juros simples
+
 # Pede o valor do Capital e transforma em número inteiro 
 C = int(input("Digite o Capital (C): "))
 
